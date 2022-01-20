@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saurabh's fitness club</title>
+    <link rel="stylesheet" href="css/style.css">
+
+
+    <style>
+        body {
+            margin: 0px;
+            padding: 0px;
+            background: url(gym.jpg);
+            background-size: 100%;
+
+        }
+
+        .left {
+
+            display: inline-block;
+            margin-top: 20px;
+            color: floralwhite;
+
+        }
+
+        .left img {
+            width: 32px;
+            margin-left: 28px;
+        }
+
+        #fit {
+            font-family: cursive;
+        }
+
+
+        .mid {
+
+            display: inline-block;
+            position: relative;
+            top: 0px;
+            left: 400px;
+            margin-top: 4px;
+            color: grey;
+            font-family: cursive;
+            margin-right: 355px;
+
+        }
+
+        .right {
+
+            display: inline-block;
+            position: absolute;
+            top: 2px;
+            right: 2px;
+            margin-top: 20px;
+
+            width: 8%;
+
+        }
+
+        .btn {
+            margin-bottom: 4px;
+            cursor: pointer;
+        }
+
+        .navbar li {
+            display: inline-block;
+
+        }
+
+        .navbar li a {
+            color: grey;
+        }
+
+        .navbar li a.active:hover {
+            color: red;
+            text-decoration: underline;
+        }
+
+        .navbar li a:hover {
+            color: rgb(232, 248, 9);
+            text-decoration: underline;
+        }
+
+        .container {
+            margin: 44px;
+            padding: 22px;
+            width: 58%;
+            margin-left: 31%;
+        }
+
+        .container h1 {
+            color: rgb(170, 170, 182);
+
+        }
+
+        .forms {
+            margin-left: 17%;
+            color: rgb(159, 179, 159);
+            padding: 3px 3px;
+
+        }
+
+        .forms input {
+            padding-left: 15px;
+            padding-right: 15px;
+            background-color: rgb(191, 236, 234);
+            border-radius: 5px;
+        }
+
+
+        .btn {
+            margin-left: 25%;
+            margin-top: 2px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="logo.jpg" alt="">
+            <div id="fit">Fitness Club</div>
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home &nbsp</a></li>
+                <li><a href="#">About Us &nbsp</a></li>
+                <li><a href="#">BMI Calculator &nbsp</a></li>
+                <li><a href="#">Contact Us &nbsp</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <div> <button class="btn">call now</button></div>
+            <button class="btn">email us</button>
+        </div>
+    </header>
+
+    <div class="container">
+        <h1>Join the best gym of Gurugram now</h1>
+        <form action="noaction.php">
+            <div class="forms">
+                <input type="text" name="name" placeholder="Enter your Name">
+            </div>
+            <div class="forms">
+                <input type="text" name="age" placeholder="Enter your Age">
+            </div>
+            <div class="forms">
+                <input type="text" name="gender" placeholder="Enter your Gender">
+            </div>
+            <div class="forms">
+                <input type="text" name="address" placeholder="Enter your Address">
+            </div>
+            <div class="forms">
+                <input type="text" name="email" placeholder="Enter your Email Id">
+            </div>
+            <div class="forms">
+                <input type="text" name="mobile no" placeholder="Enter your Phone Number">
+            </div>
+            <button class="btn">Submit</button>
+        </form>
+</body>
+
+</html>

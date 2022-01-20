@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-image: url('pexels-moose-photos-1037993.jpg');
+    padding-bottom: 29.6%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+h2 {
+    color: rgb(56, 86, 255);
+    font-family: cursive;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.timeNow {
+    color: brown;
+    font-family: cursive;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    padding-bottom: 9px;
+}
+
+#currentTime {
+    color: rgb(255, 16, 195);
+    font-family: cursive;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+}
+
+#forms {
+    display: block;
+    padding-left: 42%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#inputDate {
+    padding-left: 31px;
+    padding-right: 12px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    border: rgb(241, 75, 70);
+    border-style: ridge;
+}
+
+#alarmbtn {
+    font-size: 15px;
+    margin-left: 69px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 12px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#alarmbtn:hover {
+    cursor: pointer;
+    color: rgb(230, 248, 230);
+    background-color: rgb(238, 79, 6);
+}

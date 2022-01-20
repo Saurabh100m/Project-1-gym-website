@@ -1,0 +1,126 @@
+body {
+    background-color: rgb(221, 209, 193);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(26, 24, 24);
+    height: 45px;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    height: 65px;
+}
+
+.item {
+    padding: 14px;
+    color: whitesmoke;
+}
+
+.item:hover {
+    color: yellow;
+    cursor: pointer;
+}
+
+.logo img {
+    width: 58px;
+    height: 38px;
+    padding-top: 2px;
+    padding-left: 3px;
+    padding-right: 15px;
+}
+
+.container {
+    min-height: 75vh;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    background-image: url('back spotify.jpg');
+    background-size: 100%;
+    margin: 8px auto;
+    background-repeat: no-repeat;
+    width: 80%;
+    border-radius: 8px;
+    justify-content: center;
+}
+
+.songList h2 {
+    padding-left: 90px;
+}
+
+.songItem {
+    background-color: rgb(241, 227, 227);
+    padding: 4px;
+    margin: 3px;
+    color: rgb(0, 43, 51);
+    width: 435px;
+    border-radius: 35px;
+    font-family: cursive;
+    display: flex;
+    justify-content: space-around;
+    opacity: 0.90;
+}
+
+.songItem img {
+    height: 30px;
+    width: 30px;
+    border-radius: 100%;
+}
+
+.songItem img:hover {
+    cursor: pointer;
+}
+
+.songImage {
+    transition: all 6s;
+}
+
+.songImage:hover {
+    transform: rotate(360deg);
+}
+
+.songItem span {
+    padding-left: 15px;
+    padding-right: 0px;
+}
+
+.bottom {
+    position: sticky;
+    height: 94px;
+    background-color: rgb(14, 13, 13);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.songPlaying {
+    color: whitesmoke;
+    font-size: 20px;
+    font-family: cursive;
+}
+
+.icons img {
+    height: 35px;
+    width: 35px;
+    margin-top: 8px;
+    margin-right: 4px;
+    margin-left: 4px;
+    border-radius: 100%;
+}
+
+.icons img:hover {
+    cursor: pointer;
+}
+
+#progressBar {
+    width: 76%;
+    cursor: pointer;
+}

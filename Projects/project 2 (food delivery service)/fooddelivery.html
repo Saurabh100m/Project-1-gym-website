@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Delivery Service</title>
+
+    <style>
+        #logo img {
+            width: 45px;
+            height: 45px;
+        }
+
+        #navbar::before {
+            content: "";
+            background-color: rgb(20, 2, 2);
+            position: absolute;
+            height: 8%;
+            width: 100%;
+            z-index: -1;
+            opacity: 0.5;
+        }
+
+        #navbar {
+            display: flex;
+            justify-content: center;
+
+
+        }
+
+        ul {
+            display: flex;
+            justify-content: center;
+
+
+        }
+
+        #navbar ul li {
+            color: black;
+            list-style: none;
+
+        }
+
+        #navbar ul li a {
+            color: rgb(255, 255, 255);
+            text-decoration: none;
+            padding: 3px;
+            margin: 5px;
+            border-radius: 16px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+        }
+
+        #navbar ul li a:hover {
+            color: rgb(24, 3, 34);
+            background-color: rgb(255, 255, 255);
+            text-decoration: none;
+        }
+
+        #home {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 30px 200px;
+            padding-bottom: 70px;
+
+
+        }
+
+        #home::before {
+            content: "";
+            background: url('pexels-nerfee-mirandilla-3186654.jpg');
+            background-size: 100% 125%;
+            background-repeat: no-repeat;
+            height: 70%;
+            width: 100%;
+            z-index: -1;
+            opacity: 0.80;
+            position: absolute;
+
+
+        }
+
+        h1 {
+            font-family: cursive;
+            color: black;
+            font-size: 2.18rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+        }
+
+        p {
+            font-size: 1.2rem;
+        }
+
+        .btn {
+            color: rgb(224, 231, 231);
+            background-color: rgb(90, 84, 3);
+            border-radius: 8px;
+            font-family: monospace;
+            cursor: pointer;
+            padding: 3px;
+        }
+
+        #services {
+            margin: 5px;
+            display: flex;
+
+        }
+
+        #services .box {
+            border: 3px solid red;
+            border-radius: 13px;
+            margin: 4px;
+            width: 32.5%;
+            height: 50%;
+            text-align: center;
+            justify-content: center;
+            background-color: rgb(210, 218, 224);
+
+        }
+
+
+        #services .box img {
+            border: 4px;
+            margin: auto;
+            width: 40%;
+            height: 40%;
+            display: block;
+            padding-top: 6px;
+            border-radius: 10px;
+
+
+        }
+
+        #clients {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+
+
+        }
+
+        .clientitems img {
+            height: 90px;
+            width: 90px;
+            padding: 17px;
+        }
+
+        .clients {
+            background: url('pexels-jéshoots-4831.jpg');
+            padding-bottom: 10%;
+            background-repeat: no-repeat;
+            background-position: center top;
+            background-size: 70% 87%;
+            height: 40%;
+            width: 100%;
+            padding-top: 47px;
+            margin-top: 30px;
+        }
+
+        .forms {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            border-radius: 2px;
+            
+
+        }
+
+        .container{
+            display: flex;
+            background-color: rgb(172, 211, 212);
+            justify-content: center;
+            align-items: center;
+            padding: 12px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <nav id="navbar">
+        <div id="logo"> <img src="pexels-deni-chandra-8131951.jpg" alt="logo"></div>
+        <ul>
+            <li class="item"><a href="">Home</a></li>
+            <li class="item"><a href="">Services</a></li>
+            <li class="item"><a href="">Menu</a></li>
+            <li class="item"><a href="">About Us</a></li>
+            <li class="item"><a href="">Contact Us</a></li>
+
+
+        </ul>
+    </nav>
+    <section id="home">
+        <h1>Online Food For You</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, dolore!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, dolore!</p>
+        <button class="btn">order now</button>
+    </section>
+
+    <section class="services">
+        <h1>Our Services</h1>
+        <div id="services">
+            <div class="box">
+                <img src="pexels-pure-punjabi-7340914.jpg" alt="">
+                <h2>Food Ordering</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia ex magnam facilis?</p>
+            </div>
+            <div class="box">
+                <img src="pexels-pixabay-461428.jpg" alt="">
+                <h2>Dining Out</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia ex magnam facilis?</p>
+            </div>
+            <div class="box">
+                <img src="pexels-ready-made-3850838.jpg" alt="">
+                <h2>Bulk Ordering</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia ex magnam facilis?</p>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="clients">
+        <h1>Our Clients</h1>
+        <div id="clients">
+            <div class="clientitems">
+                <img src="youtube.jpg" alt="">
+            </div>
+            <div class="clientitems">
+                <img src="twitter.jpg" alt="">
+            </div>
+            <div class="clientitems">
+                <img src="insta.jpg" alt="">
+            </div>
+            <div class="clientitems">
+                <img src="apple.jpg" alt="">
+            </div>
+            <div class="clientitems">
+                <img src="face.jpg" alt="">
+            </div>
+
+        </div>
+    </section>
+    <div class="container">
+        <form action="noaction.php">
+            <div class="forms">Contact Us</div>
+            <div class="forms">
+                <input type="text" name="name" placeholder="Enter your Name">
+            </div>
+            <div class="forms">
+                <input type="text" name="age" placeholder="Enter your Age">
+            </div>
+            <div class="forms">
+                <input type="text" name="gender" placeholder="Enter your Gender">
+            </div>
+            <div class="forms">
+                <input type="text" name="address" placeholder="Enter your Address">
+            </div>
+            <div class="forms">
+                <input type="text" name="email" placeholder="Enter your Email Id">
+            </div>
+            <div class="forms">
+                <input type="text" name="mobile no" placeholder="Enter your Phone Number">
+            </div>
+            <button class="bttn">Submit</button>
+        </form>
+    </div>
+
+</body>
+
+</html>
