@@ -1,0 +1,102 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(19, 1, 1);
+}
+
+.head {
+    color: blanchedalmond;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.container {
+    color: blanchedalmond;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    grid-template-columns: repeat(3, 90px);
+    grid-template-rows: repeat(3, 90px);
+    font-size: 60px;
+    padding-top: 20px;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid wheat;
+    color: rgb(166, 212, 0);
+}
+
+.box:hover {
+    cursor: pointer;
+    background-color: rgb(105, 7, 7);
+}
+
+#b1 {
+    border-top: none;
+    border-left: none;
+}
+
+#b2 {
+    border-top: none;
+}
+
+#b3 {
+    border-top: none;
+    border-right: none;
+}
+
+#b4 {
+    border-left: none;
+}
+
+#b6 {
+    border-right: none;
+}
+
+#b7 {
+    border-bottom: none;
+    border-left: none;
+}
+
+#b8 {
+    border-bottom: none;
+}
+
+#b9 {
+    border-right: none;
+    border-bottom: none;
+}
+
+#won {
+    font-size: 35px;
+    color: blanchedalmond;
+    padding: 20px;
+    margin: 15px;
+    margin-left: 39.5%;
+    font-family: cursive;
+}
+
+button {
+    color: rgb(1, 7, 26);
+    background-color: rgb(221, 163, 182);
+    padding: 4px 17px;
+    margin-left: 47%;
+    margin-top: 66px;
+    font-family: cursive;
+    font-size: 13.4px;
+    border-radius: 12px;
+    box-shadow: 2px 2px 4px rgb(255, 255, 255);
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: rgb(255, 60, 0);
+    color: whitesmoke;
+}
